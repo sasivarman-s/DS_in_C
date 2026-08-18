@@ -25,7 +25,7 @@ void count_node(struct node *head)
 
 int main()
 {
-    // counts the total nodes in this program by 1st method using while loop
+    // counts the total nodes in this program by 1st method using while loop 
     struct node *head = (struct node *)malloc(sizeof(struct node));
     head->data = 10;
     head->link = NULL;
